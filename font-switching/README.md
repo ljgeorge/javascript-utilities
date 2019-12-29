@@ -5,7 +5,7 @@ As written the script is designed to support three buttons that switch the size 
 
 How to use
 ------------
-The script This AccessibilitySwitcherNoButtons.js script needs to be include by making an entry inside the <head>
+The script AccessibilitySwitcherNoButtons.js script needs to be include by making an entry inside the <head>
     tags e.g.
    ```<script src="AccessibilitySwitcherNoButtons.js" type="application/javascript" /></script>```
   
