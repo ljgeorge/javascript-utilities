@@ -1,5 +1,5 @@
 # Font switching
-This utility allows the font contained in some HTML tag types to be increased for easier use by people who find larger fonts easier to read.
+This utility allows the font contained in some HTML tag types to be increased for people who find larger fonts easier to read.
 
 As written the script is designed to support three buttons that switch the size of text to small, medium or large. The change of font size is applied to HTML tags with a CSS class of CssSwitchable. This allows control of which key areas of the page are affected. This makes it easier to manage the changes in pay layout.
 
