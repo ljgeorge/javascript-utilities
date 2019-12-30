@@ -28,7 +28,7 @@ Add one onclick event to each of the three font switching images.
     
 ```onclick="javascript:cssSwitch.switchFontSize(0);```
 
-Pass in 0 from small, 1 for medium and 3 for large.
+Pass in 0 for small, 1 for medium and 3 for large.
 
 
 Add the font-size: (or any other characteristics to change) paragraphs for the
