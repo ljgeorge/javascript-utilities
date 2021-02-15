@@ -1,0 +1,99 @@
+<html>
+<head>
+
+    <title>Totals Calculator Test</title>
+    <script src="TotalsCalculator.js" type="application/javascript">
+    
+    </script> 
+</head>
+
+
+<body onLoad="TotalsCalculatorLoad();" >
+<table width="100%" border="0" cellspacing="5" cellpadding="0">
+    <tr>
+        <td height="110"  align="left" valign="center">ITEM</td>
+        <td width="60" align="center">COST</td>
+        <td width="90" align="center">QUANTITY</td>
+        <td width="90" align="center">TOTAL</td>
+    </tr>
+
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Bubble Wrap</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;15.00 per roll</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="BubbleWrapQuantity" name="BubbleWrapQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="BubbleWrapTotal" name="BubbleWrapTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Clear Tape</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;1.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="ClearTapeQuantity" name="ClearTapeQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="ClearTapeTotal" name="ClearTapeTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+         <td width="110" align="left" valign="middle">
+            <p>Bennetts Sticky Tape</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;1.50 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="StickyTapeQuantity" name="StickyTapeQuantity" type="text" class="quantityboxes" placeholder="0"/> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="StickyTapeTotal" name="StickyTapeTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+         <td width="110" align="left" valign="middle">
+            <p>Ream Of Paper</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;7.00 per ream</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="ReamOfPaperQuantity" name="ReamOfPaperQuantity" type="text" class="quantityboxes" placeholder="0"/> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="ReamOfPaperTotal" name="ReamOfPaperTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Large Boxes</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;4.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="LargeBoxesQuantity"  name="LargeBoxesQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="LargeBoxesTotal" name="LargeBoxesTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Medium Boxes</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;3.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="MediumBoxesQuantity"  name="MediumBoxesQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="MediumBoxesTotal" name="MediumBoxesTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Small Boxes</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;2.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="SmallBoxesQuantity"  name="SmallBoxesQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="SmallBoxesTotal" name="SmallBoxesTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Single Cover</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;4.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="SingleCoverQuantity"  name="SingleCoverQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="SingleCoverTotal" name="SingleCoverTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Double Cover</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;5.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="DoubleCoverQuantity"  name="DoubleCoverQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="DoubleCoverTotal" name="DoubleCoverTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+    <tr>
+        <td width="110" align="left" valign="middle">
+            <p>Ward Robe</p></td>
+        <td width="60" align="center" valign="middle"><p>&pound;12.00 each</p></td>
+        <td width="90" align="center" valign="middle"><p><input id="WarDrobeQuantity"  name="WarDrobeQuantity" type="text" class="quantityboxes" placeholder="0" /> </p></td>
+        <td width="90" align="center" valign="middle"><p><input id="WarDrobeTotal" name="WarDrobeTotal" type="text" class="paymentboxes" readonly/> </p></td>
+    </tr>
+</table>
+<h3>Total</h3>
+
+  Final Total:  <input type="text" id="finaltotal"  readonly/><br />
+
+
+
+</body>
+
+</html>
