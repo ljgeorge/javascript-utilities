@@ -9,6 +9,11 @@ The font size switching utility as used by the [Northwick Bear site] (http://www
 [Font Switcher](font-switching/README.md)
 
 ## Totals Calculator
-The totals calculator as used on thr Bennet's Removals site.
+The totals calculator is used to calculate the cost of orders.
 
-[Totals Calculator](totals-calculator/README.md)
+[Totals Calculator](totals-calculator/documentation/TotalsCalculator-v1.0.pdf)
+
+## Discount Calculator
+The discount calculator is used to calculate the amount that might be saved with different discounts over a year
+
+[Discount Calculator](savings-calculator/documentation/DiscountCalculator-v1.0.pdf)
